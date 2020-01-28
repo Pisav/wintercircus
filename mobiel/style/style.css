@@ -1,0 +1,132 @@
+/*body {
+	display: none;
+}
+*/
+
+@media only screen and (max-width: 418px) {
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #162030;
+	
+}
+
+header {
+	font-family: 'Playfair Display', serif;
+}
+
+header img {
+	object-fit: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	z-index: -1;
+}
+
+header div {
+  color: #fff;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	 letter-spacing: 3px;
+}
+
+p {
+		    font-family: sans-serif;
+		font-size: 25px;
+}
+
+
+.paragraaf  {
+	color: #fff;
+	width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 35px;
+      margin-top: -12em;
+}
+
+.paragraaf_0 {
+	color: #fff;
+	width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 35px;
+  padding-top: 8em;
+}
+
+.paragraaf_1 {
+	color: #fff;
+	padding-top: 8em;
+	width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 35px;
+}
+
+.paragraaf_2 {
+	color: #fff;
+	padding-top: 8em;
+	width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 35px;
+}
+.p2d {
+	height: 170px;
+	line-height: 35px;
+	background-color: #a9a9a9;
+}
+
+.paragraaf_3 {
+	color: #fff;
+	padding-top: 8em;
+	width: 80%;
+	line-height: 35px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#more {
+	display: none;
+}
+
+#more_0 {
+	display: none;
+}
+
+
+#more_1 {
+	display: none;
+}
+
+#more_2 {
+	display: none;
+}
+
+button {
+background-color: none;
+    border: none;
+    outline: none;
+    height: 29px;
+    width: 112px;
+    color: #fff;
+    font-size: 20px;
+       font-family: sans-serif;
+}
+
+
+.rechts {
+	float: right;
+	font-size: 20px;
+}
+
+
+
+}

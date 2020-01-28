@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Home Page">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Vadim Pisa">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  
+
+  <title>Website | Wintercircus</title>
+</head>
+<body>
+	<header>
+    <img src="img/paint.jpg"></img>
+   
+</header>
+
+ <div class="paragraaf">
+        <h1>Brieflezende <br> vrouw</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. <span id="dots">...</span>
+            <span id="more"> Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>
+        <p class="rechts" type="button" id="read" onclick="read()">Lees meer <i class="fa fa-sort-down" style="font-size:26px"></i></p>
+    </div>
+
+<div class="paragraaf_0">
+
+    <h1>Brieflezende <br> vrouw</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. <span id="dots_0">...</span>
+        <span id="more_0"> Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>
+    <p class="rechts" type="button" id="read_0" onclick="read_0()">Lees meer <i class="fa fa-sort-down" style="font-size:26px"></i></p>
+</div>
+
+<div class="paragraaf_1">
+    <h1>Revisit <br>the Master</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. <span id="dots_1">...</span>
+        <span id="more_1">Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>
+    <p class="rechts" id="read_1" onclick="read_1()">Lees meer <i class="fa fa-sort-down" style="font-size:26px"></i></p>
+</div>
+
+<div class="paragraaf_2">
+    <h1>Explore</h1>
+    <div class="p2d"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div class="paragraaf_3">
+    <h1>Makers</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat.<span id="dots_2">...</span>
+        <span id="more_2"> Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat.</span></p>
+    <p class="rechts" type="button" id="read_2" onclick="read_2()">Lees meer <i class="fa fa-sort-down" style="font-size:26px"></i></p>
+</div>
+
+
+
+<script type="text/javascript">
+	
+//111111111111111111111111
+
+var i=0;
+function read() {
+if(!i){
+	document.getElementById("more").style.
+	display = "inline";
+	document.getElementById("dots").style.
+	display = "none";
+	document.getElementById("read").innerHTML
+	="Lees minder";
+	i=1;
+}
+else {
+	document.getElementById("more").style.
+	display = "none";
+	document.getElementById("dots").style.
+	display = "inline";
+	document.getElementById("read").innerHTML
+	="Lees meer";
+	i=0;
+}
+
+}
+//22222222222222222222222
+
+var i=0;
+function read_0() {
+if(!i){
+	document.getElementById("more_0").style.
+	display = "inline";
+	document.getElementById("dots_0").style.
+	display = "none";
+	document.getElementById("read_0").innerHTML
+	="Lees minder";
+	i=1;
+}
+else {
+	document.getElementById("more_0").style.
+	display = "none";
+	document.getElementById("dots_0").style.
+	display = "inline";
+	document.getElementById("read_0").innerHTML
+	="Lees meer";
+	i=0;
+}
+
+}
+
+//333333333333333333333333333333333333333
+
+
+var i=0;
+function read_1() {
+if(!i){
+	document.getElementById("more_1").style.
+	display = "inline";
+	document.getElementById("dots_1").style.
+	display = "none";
+	document.getElementById("read_1").innerHTML
+	="Lees minder";
+	i=1;
+}
+else {
+	document.getElementById("more_1").style.
+	display = "none";
+	document.getElementById("dots_1").style.
+	display = "inline";
+	document.getElementById("read_1").innerHTML
+	="Lees meer";
+	i=0;
+}
+
+}
+
+
+//4444444444444444444444444444444444444
+var i=0;
+function read_2() {
+if(!i){
+	document.getElementById("more_2").style.
+	display = "inline";
+	document.getElementById("dots_2").style.
+	display = "none";
+	document.getElementById("read_2").innerHTML
+	="Lees minder";
+	i=1;
+}
+else {
+	document.getElementById("more_2").style.
+	display = "none";
+	document.getElementById("dots_2").style.
+	display = "inline";
+	document.getElementById("read_2").innerHTML
+	="Lees meer";
+	i=0;
+}
+
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
